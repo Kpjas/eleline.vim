@@ -141,6 +141,7 @@ function! s:MyStatusLine()
         \ '%='.l:tags.l:m_r_f.l:pos.l:enc.l:ff.l:pct
 endfunction
 
+" changed colors: 178, 232
 let s:colors = {
             \   140 : '#af87d7', 149 : '#99cc66', 160 : '#d70000',
             \   171 : '#d75fd7', 178 : '#4a89ff', 184 : '#ffe920',
