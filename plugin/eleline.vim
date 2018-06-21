@@ -184,7 +184,7 @@ endif
 function! s:hi_statusline()
   call s:hi('User1'      , 232 , 178  )
   call s:hi('paste'      , 232 , 178    , 'bold')
-  call s:hi('User2'      , 178 , s:bg+8 )
+  call s:hi('User2'      , 160 , s:bg+8 )
   call s:hi('User3'      , 250 , s:bg+6 )
   call s:hi('User4'      , 171 , s:bg+4 , 'bold' )
   call s:hi('User5'      , 208 , s:bg+3 )
